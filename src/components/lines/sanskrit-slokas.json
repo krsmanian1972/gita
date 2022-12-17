@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_lines_sanskrit_slokas",
+  "info": {
+    "displayName": "sanskrit_slokas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sanskrit_verses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lines.sanskrit-verselet"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_lines_sanskrit_verselets",
+  "info": {
+    "displayName": "sanskrit_verselet",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sanskrit_verse_let": {
+      "type": "text"
+    }
+  }
+}
