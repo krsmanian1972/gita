@@ -2,7 +2,7 @@
   "name": "gita",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "The content management system for Gita",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -17,7 +17,7 @@
     "mysql": "2.18.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "krsmanian1972@gmail.com"
   },
   "strapi": {
     "uuid": "adb728b0-0681-4a69-b370-4a367a557dcc"
@@ -25,6 +25,9 @@
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
+  },
+  "resolutions": {
+    "graphql": "^14.1.0"
   },
   "license": "MIT"
 }
