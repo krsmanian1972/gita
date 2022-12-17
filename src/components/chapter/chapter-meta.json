@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_chapter_chapter_metas",
+  "info": {
+    "displayName": "chapterMeta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Index": {
+      "type": "integer",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 100
+    },
+    "TransTitle": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "Glimpse": {
+      "type": "string",
+      "required": true,
+      "maxLength": 120
+    },
+    "AudioUrl": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

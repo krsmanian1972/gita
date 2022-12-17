@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_chapters",
+  "info": {
+    "singularName": "main-chapter",
+    "pluralName": "main-chapters",
+    "displayName": "Chapter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Index": {
+      "type": "integer"
+    },
+    "ChapterMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "chapter.chapter-meta"
+    },
+    "VerseMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "verse.verses"
+    },
+    "Verse": {
+      "type": "component",
+      "repeatable": true,
+      "component": "verse.verse-lets"
+    },
+    "Dictionary": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dictionary.words"
+    },
+    "Verbatim": {
+      "type": "richtext"
+    },
+    "Summary": {
+      "type": "richtext"
+    },
+    "Translation": {
+      "type": "richtext"
+    },
+    "Commentary": {
+      "type": "richtext"
+    }
+  }
+}

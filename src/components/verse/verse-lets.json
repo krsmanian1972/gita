@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_verse_verse_lets",
+  "info": {
+    "displayName": "verseLets",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SanskritVerseLets": {
+      "type": "richtext"
+    },
+    "EnglishVerseLets": {
+      "type": "richtext"
+    }
+  }
+}

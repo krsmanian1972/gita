@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dictionary_words",
+  "info": {
+    "displayName": "words",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Order": {
+      "type": "integer"
+    },
+    "Word": {
+      "type": "text",
+      "required": false,
+      "maxLength": 140
+    },
+    "Meaning": {
+      "type": "text"
+    }
+  }
+}
