@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_chapter_chapter_briefs",
+  "info": {
+    "displayName": "ChapterBrief"
+  },
+  "options": {},
+  "attributes": {
+    "ChapterIndex": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Glimpse": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "indices",
+  "info": {
+    "singularName": "index",
+    "pluralName": "indices",
+    "displayName": "Index"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "ChapterBrief": {
+      "type": "component",
+      "repeatable": true,
+      "component": "chapter.chapter-brief"
+    }
+  }
+}
