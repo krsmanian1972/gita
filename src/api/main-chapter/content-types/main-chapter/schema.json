@@ -22,7 +22,7 @@
     },
     "VerseMeta": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "verse.verses"
     },
     "Verse": {

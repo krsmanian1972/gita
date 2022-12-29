@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "Index": {
-      "type": "integer"
+      "type": "decimal"
     },
     "Glimpse": {
       "type": "text"
@@ -22,6 +22,9 @@
         "videos",
         "audios"
       ]
+    },
+    "VersionIndex": {
+      "type": "string"
     }
   }
 }
