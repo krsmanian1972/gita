@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "verses",
+  "info": {
+    "singularName": "verse",
+    "pluralName": "verses",
+    "displayName": "Verse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Index": {
+      "type": "integer"
+    },
+    "ChapterIndex": {
+      "type": "string"
+    },
+    "VerseIndex": {
+      "type": "string"
+    },
+    "VerseLets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "verse.verse-lets"
+    },
+    "Dictionary": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dictionary.words"
+    },
+    "Translation": {
+      "type": "richtext"
+    },
+    "Commentary": {
+      "type": "richtext"
+    }
+  }
+}
