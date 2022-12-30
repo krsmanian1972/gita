@@ -24,11 +24,6 @@
       "type": "component",
       "repeatable": true,
       "component": "verse.verses"
-    },
-    "Verses": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::verse.verse"
     }
   }
 }
