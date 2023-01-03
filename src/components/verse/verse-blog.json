@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_verse_verse_blogs",
+  "info": {
+    "displayName": "VerseCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "EnglishVerse": {
+      "type": "text"
+    },
+    "Translation": {
+      "type": "text"
+    }
+  }
+}

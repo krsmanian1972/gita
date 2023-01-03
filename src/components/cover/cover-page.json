@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cover_cover_pages",
+  "info": {
+    "displayName": "CoverPage"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "CardBody": {
+      "type": "richtext"
+    },
+    "BuyButtonText": {
+      "type": "string"
+    },
+    "KnowMoreText": {
+      "type": "string"
+    }
+  }
+}

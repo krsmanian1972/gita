@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cover_cover_blogs",
+  "info": {
+    "displayName": "CoverBlog"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    }
+  }
+}
